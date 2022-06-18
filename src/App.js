@@ -9,7 +9,6 @@ import Quiz from "./Pages/Quiz/Quiz";
 import Result from "./Pages/Result/Result";
 import Login from "./Pages/Login/Login";
 
-
 function App() {
   const [questions, setQuestions] = useState();
   const [name, setName] = useState();
