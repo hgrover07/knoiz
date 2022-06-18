@@ -1,0 +1,93 @@
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.settings {
+  width: 45%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.banner {
+  width: 55%;
+  align-self: center;
+  padding: 8px;
+}
+a.title.main_title_home:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.main_quiz_div .MuiInputBase-root input {
+  background: #fff;
+  border-radius: 8px;
+}
+body.main_background_img {
+  background: url("http://localhost:3000/Home-page-background-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main_quiz_div .settings {
+  background: #626262b3;
+  border-radius: 10px;
+  margin-top: 3%;
+}
+.main_quiz_div .MuiInputBase-root .MuiSelect-select {
+  background: #fff;
+}
+.main_quiz_div span {
+  color: #fff;
+}
+.main_title_home{
+  color: #fff;
+}
+.start_quiz_button button {
+  background: rgb(63,91,251);
+  background: radial-gradient(circle, rgba(63,91,251,1) 0%, rgba(252,70,185,1) 100%);
+  width: 100%;
+}
+.main_quiz_div .MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(14px, -16px) scale(0.75);
+}
+.main_quiz_div .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-outlined.MuiFormLabel-filled {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  .content {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .banner {
+    width: 85%;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .settings {
+    width: 100%;
+  }
+}
+
+.settings__select {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  flex: 0.8;
+  justify-content: space-evenly;
+}

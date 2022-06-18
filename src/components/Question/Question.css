@@ -1,0 +1,75 @@
+.question {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.singleQuestion {
+  width: 95%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 5px solid #fff;
+  padding: 20px;
+  margin-top: 10px;
+  background: #1a1a1ac2;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.singleOption {
+  width: 46%;
+  height: 50px;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 93% 7% 93% 7% / 0% 100% 0% 100%;
+  font-size: 18px;
+  font-weight: 600;
+}
+.singleQuestion h1 {
+  color: #fff;
+  margin-bottom: 2%;
+}
+.singleQuestion h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-containedSizeLarge.MuiButton-sizeLarge {
+  background: radial-gradient(circle, rgba(63,91,251,1) 0%, rgba(252,70,185,1) 100%);
+}
+
+@media (max-width: 614px) {
+  .singleOption {
+    width: 100%;
+  }
+}
+
+.controls {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.select {
+  background-color: rgb(7, 207, 0);
+  color: white;
+  box-shadow: 0 0 1px black;
+}
+
+.wrong {
+  background-color: rgb(233, 0, 0);
+  color: white;
+  box-shadow: 0 0 1px black;
+}
